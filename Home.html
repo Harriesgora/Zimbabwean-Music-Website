@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Zimbabwean Music Legacy</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+  <style>
+    :root {
+      --zml-accent: #fdfcf5;
+      --zml-text: #1d1d1f;
+    }
+
+    .zml-display {
+      font-family:system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+      font-weight: 700;
+    }
+
+    /* NAV BAR */
+    .zml-nav {
+      background: var(--zml-accent) !important;
+      height: 72px;
+      line-height: 72px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, .08);
+    }
+
+    .zml-nav .w3-bar-item {
+      color: var(--zml-text) !important;
+      font-size: 18px;
+      padding: 0 20px !important;
+    }
+
+    .zml-nav .w3-bar-item.zml-brand {
+      font-size: 22px;
+      letter-spacing: .5px;
+    }
+
+    .zml-nav .w3-bar-item:hover {
+      background: rgba(0, 0, 0, .05) !important;
+    }
+  </style>
+
+  <style>
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      font-family: "Oswald"
+    }
+
+  
+
+    /* Thin Zimbabwe flag accent under the navbar to simbolize zimbabwe flag */
+    .flag-bar {
+      height: 6px;
+      background: linear-gradient(to right,
+          #006400 0% 14.285%,
+          #FFD200 14.285% 28.57%,
+          #D4213D 28.57% 42.855%,
+          #000000 42.855% 57.14%,
+          #D4213D 57.14% 71.425%,
+          #FFD200 71.425% 85.71%,
+          #006400 85.71% 100%);
+    }
+
+    
+    .artist-img {
+      width: 100%;
+      height: 320px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+
+    @media (max-width:600px) {
+      .artist-img {
+        height: 220px;
+      }
+    }
+
+    
+    .artist-portrait {
+      object-position: 50% 15%;
+    }
+
+   
+  </style>
+
+  <style>
+    .zml-nav {
+      padding: 0 12px;
+    }
+
+    .zml-brand .fa {
+      color: var(--zml-text);
+    }
+
+    
+
+    .brand-badge {
+      background: transparent;
+      color: var(--zml-text);
+      border: none;
+      box-shadow: none;
+      padding: 0;
+      letter-spacing: 0.5px;
+    }
+
+    .zml-brand span {
+      font-size: 24px;
+    }
+
+    
+    .zml-nav .nav-link {
+      color: var(--zml-text);
+    }
+
+    .zml-nav .nav-link:hover {
+      background: rgba(0, 0, 0, 0.06);
+    }
+
+    
+    body {
+      padding-top: 78px;
+    }
+  </style>
+
+</head>
+
+
+<body class="w3-light-grey">
+  <!-- Top nav -->
+  <div class="w3-top">
+    <div class="w3-bar zml-nav zml-display">
+      <!-- Brand badge -->
+      <a href="Home.html" class="w3-bar-item w3-hide-small brand-badge zml-brand" aria-label="Zim Music Legacy">
+
+        <span>Zim Music Legacy</span>
+      </a>
+
+
+      <!-- right-aligned desktop links with icons -->
+      <div class="w3-right w3-hide-small">
+        <a href="icons.html" class="w3-bar-item">Icons</a>
+        <a href="evolution.html" class="w3-bar-item">Evolution</a>
+        <a href="tuku.html" class="w3-bar-item ">Tuku’s Legacy</a>
+        <a href="today.html" class="w3-bar-item">Today</a>
+      </div>
+    </div>
+    <!-- thin flag accent -->
+    <div class="flag-bar"></div>
+  </div>
+
+
+  
+  <header class="w3-container" style="
+    background-image:url('images/safari.jpg');
+    background-size:cover; background-position:center;
+    height:560px; padding:16px 32px 24px;
+    display:flex; align-items:flex-start; justify-content:flex-end;
+  ">
+    <div style="color:white; text-align:right; text-shadow:0 2px 6px rgba(0,0,0,0.5); max-width:720px;">
+      <h1 class="w3-xxxlarge">Zim Music Legacy</h1>
+      <h6>Celebrating Zimbabwean music from <span class="w3-tag">the 1980s to today</span></h6>
+    </div>
+  </header>
+
+
+  <!-- Headline + short intro (centered) -->
+  <section class="w3-container w3-center w3-padding-48" style="max-width:1100px; margin:auto">
+    <h2 class="w3-xxlarge" style="margin:0 0 12px 0">
+      The Soundtrack of a Nation: Exploring Zimbabwean Music from the 80s, 90s, and Today.
+    </h2>
+    <p class="w3-large" style="line-height:1.6; margin:0 auto 16px">
+      From the post-Independence boom to the rise of sungura and today’s fusions, Zimbabwe’s music has carried
+      community,
+      celebration, and resilience. This site spotlights influential voices like <strong>Oliver Mtukudzi</strong>,
+      <strong>Alick Macheso</strong>, <strong>Leonard Dembo</strong>, and <strong>Charles Charamba</strong>and how their
+      sounds echo in modern artists.
+    </p>
+    <!-- buttons that link to icons page and evolutions page-->
+    <div class="w3-center w3-margin-top">
+      <a href="icons.html" class="w3-button w3-round" style="background:#006400;color:#fff">Explore Icons</a>
+      <a href="evolution.html" class="w3-button w3-white w3-border w3-round">Read Evolution</a>
+    </div>
+  </section>
+
+
+  <div class="w3-content" style="max-width:1200px">
+    <!-- Featured artists -->
+    <section class="w3-content w3-container w3-padding-24" style="max-width:1200px;">
+      <div class="w3-row-padding">
+        <div class="w3-third w3-center">
+          <img src="images/Alick.jpg" alt="Alick Macheso" class="artist-img artist-portrait">
+          <p class="w3-small w3-text-gray w3-margin-top">
+            Alick Macheso — celebrated Sungura guitarist
+          </p>
+        </div>
+
+        <div class="w3-third w3-center">
+          <img src="images/Oliver.jpg" alt="Oliver Mtukudzi" class="artist-img">
+          <p class="w3-small w3-text-gray w3-margin-top">
+            Oliver Mtukudzi — loved across Africa
+          </p>
+        </div>
+
+        <div class="w3-third w3-center">
+          <img src="images/Charles.jpeg" alt="Charles Charamba" class="artist-img artist-portrait">
+          <p class="w3-small w3-text-gray w3-margin-top">
+            Charles Charamba — gospel icon, still performing
+          </p>
+        </div>
+      </div>
+    </section>
+  </div>
+
+
+  <!-- Image header -->
+  <img src="images/LOGO.png" alt="Zim Music Legacy logo"
+    style="display:block; margin:32px auto; max-width:520px; width:100%; height:auto;">
+
+  <!-- Footer -->
+  <footer>
+    <!-- Zimbabwe flag accent -->
+    <div class="flag-bar"></div>
+
+    <div class="w3-container w3-black w3-padding-32">
+      <div class="w3-row-padding">
+        <div class="w3-col m7 s12">
+          <h5 class="w3-text-white">Zim Music Legacy</h5>
+          <p class="w3-small" style="opacity:0.85;">
+            A project by Harries Gora celebrating Zimbabwean music from the 1980s, 1990s, and today.
+          </p>
+        </div>
+
+        <div class="w3-col m5 s12 w3-right-align w3-margin-top">
+          <a href="icons.html" class="w3-button w3-round w3-small w3-white w3-border w3-margin-bottom">Icons</a>
+          <a href="evolution.html" class="w3-button w3-round w3-small w3-white w3-border w3-margin-bottom">Evolution</a>
+          <a href="tuku.html" class="w3-button w3-round w3-small w3-white w3-border w3-margin-bottom">Tuku’s Legacy</a>
+          <a href="today.html" class="w3-button w3-round w3-small w3-white w3-border w3-margin-bottom">Today</a>
+        </div>
+      </div>
+
+      <div class="w3-border-top w3-border-grey w3-padding-16 w3-small" style="margin-top:12px;opacity:.9;">
+        <span> &copy;2025 Harries Gora. All rights reserved.</span>
+        <span class="w3-right">
+          <a href="#" class="w3-text-white" style="text-decoration:none;">
+            <i class="fa fa-arrow-up w3-margin-right"></i>Back to top
+          </a>
+        </span>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>

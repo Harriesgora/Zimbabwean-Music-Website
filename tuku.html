@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Zim Music Legacy · Tuku’s Legacy</title>
+
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <style>
+    :root {
+      --zml-accent: #fdfcf5;
+      --zml-text: #1d1d1f;
+    }
+
+    .zml-display {
+      font-family: "Poppins", system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+      font-weight: 700;
+    }
+
+
+    /* NAV BAR */
+    .zml-nav {
+      background: var(--zml-accent) !important;
+      height: 72px;
+      line-height: 72px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, .08);
+    }
+
+    .zml-nav .w3-bar-item {
+      color: var(--zml-text) !important;
+      font-size: 18px;
+      padding: 0 20px !important;
+    }
+
+    .zml-nav .w3-bar-item.zml-brand {
+      font-size: 22px;
+      letter-spacing: .5px;
+    }
+
+    .zml-nav .w3-bar-item:hover {
+      background: rgba(0, 0, 0, .05) !important;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      font-family: "Oswald"
+    }
+
+    body {
+      font-family: "Open Sans";
+      padding-top: 78px
+    }
+
+
+    .flag-bar {
+      height: 6px;
+      background: linear-gradient(to right,
+          #006400 0% 14.285%,
+          #FFD200 14.285% 28.57%,
+          #D4213D 28.57% 42.855%,
+          #000000 42.855% 57.14%,
+          #D4213D 57.14% 71.425%,
+          #FFD200 71.425% 85.71%,
+          #006400 85.71% 100%);
+    }
+
+    /* sections */
+    .hero-banner {
+      background: url('images/Vic.jpg') center/cover no-repeat;
+      height: 360px;
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .hero-banner::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(to bottom, rgba(0, 0, 0, .45), rgba(0, 0, 0, .35));
+    }
+
+    .hero-content {
+      position: relative;
+      text-align: center;
+      color: #fff;
+      text-shadow: 0 2px 8px rgba(0, 0, 0, .6);
+      padding: 8px 16px;
+    }
+
+    .hero-content h1 {
+      margin: 0;
+      font-size: 56px;
+      line-height: 1.05;
+    }
+
+    .hero-tagline {
+      margin-top: 8px;
+      font-size: 20px;
+      line-height: 1.5;
+    }
+
+
+    .card {
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, .08);
+      padding: 24px;
+    }
+
+    /* button */
+    .btn-primary {
+      background: #006400;
+      color: #fff;
+    }
+
+    .btn-primary:hover {
+      filter: brightness(.9);
+    }
+  </style>
+</head>
+
+
+<body class="w3-light-grey">
+
+  <!-- Top nav -->
+  <div class="w3-top">
+    <div class="w3-bar zml-nav zml-display">
+      <a href="Home.html" class="w3-bar-item w3-hide-small brand-badge zml-brand" aria-label="Zim Music Legacy">
+        <span>Zim Music Legacy</span>
+      </a>
+
+      <div class="w3-right w3-hide-small">
+        <a href="icons.html" class="w3-bar-item">Icons</a>
+        <a href="evolution.html" class="w3-bar-item ">Evolution</a>
+        <a href="tuku.html" class="w3-bar-item">Tuku’s Legacy</a>
+        <a href="today.html" class="w3-bar-item ">Today</a>
+      </div>
+    </div>
+    <div class="flag-bar"></div>
+  </div>
+
+  <!-- Banner -->
+  <section class="hero-banner">
+    <div class="hero-content">
+      <h1>Tuku’s Legacy</h1>
+      <p class="hero-tagline">Celebrating Oliver “Tuku” Mtukudzi’s life, music, and enduring impact</p>
+    </div>
+  </section>
+
+  <!-- Main content -->
+  <div class="w3-content" style="max-width:1100px">
+
+    <!-- Hero image -->
+    <div class="w3-center w3-padding-32">
+      <img src="images/Oli.webp" alt="Oliver Mtukudzi performing" style="width:90%; border-radius:10px;">
+    </div>
+
+    <!-- Todii -->
+    <h2>“Todii” — Backstory and Social Impact</h2>
+    <p>
+      “Todii” asks, “What shall we do?” and became a compassionate call during Zimbabwe’s HIV/AIDS crisis. Through
+      empathetic lyrics and restrained instrumentation, the song
+      challenged stigma, promoted dignity, and gave voice to families caring for the ill. Its message travelled beyond
+      borders and anchored Tuku’s role as a socially conscious artist.
+    </p>
+
+    <div style="max-width:900px; margin:16px auto;">
+      <iframe src="https://www.youtube.com/embed/K5zMoRptLng"
+        title="Oliver Mtukudzi — Todii (Cape Town International Jazz Festival, 2002)" width="100%" height="450"
+        style="border:4px solid #006400; border-radius:8px;" allowfullscreen>
+      </iframe>
+    </div>
+
+    <!-- Tiny Desk -->
+    <h3>Tiny Desk Performance</h3>
+    <p>
+      Oliver Mtukudzi’s NPR Tiny Desk set introduced Tuku Music to a global audience in an intimate format.
+      The session includes “Todii,” showcasing his storytelling, guitar work, and ensemble dynamics.
+    </p>
+    <a class="w3-button btn-primary w3-round" href="https://www.youtube.com/watch?v=11po9xKBsbw" target="_blank"
+      rel="noopener">
+      Watch Tiny Desk on YouTube
+    </a>
+
+  </div>
+
+  <!-- Discography -->
+  <section class="w3-center w3-padding-48" style="max-width:1000px; margin:auto;">
+    <h2>Key Albums</h2>
+
+    <div class="w3-row-padding">
+      <div class="w3-third w3-margin-bottom">
+        <img src="images/Album1.jpeg" alt="Tuku Music" style="width:100%; border-radius:8px;">
+        <h5>Tuku Music</h5>
+        <p>1999</p>
+      </div>
+
+      <div class="w3-third w3-margin-bottom">
+        <img src="images/Album2.jpeg" alt="Paivepo" style="width:100%; border-radius:8px;">
+        <h5>Paivepo</h5>
+        <p>1999</p>
+      </div>
+
+      <div class="w3-third w3-margin-bottom">
+        <img src="images/Album5.jpeg" alt="Nhava" style="width:100%; border-radius:8px;">
+        <h5>Nhava</h5>
+        <p>2005</p>
+      </div>
+
+      <div class="w3-half w3-margin-bottom">
+        <img src="images/Album4.jpeg" alt="Vhunze Moto" style="width:100%; border-radius:8px;">
+        <h5>Vhunze Moto</h5>
+        <p>2002</p>
+      </div>
+
+      <div class="w3-half w3-margin-bottom">
+        <img src="images/Album3.jpeg" alt="Rudaviro" style="width:100%; border-radius:8px;">
+        <h5>Rudaviro</h5>
+        <p>2012</p>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Career Milestones -->
+  <section class="w3-center w3-padding-48" style="max-width:900px; margin:auto;">
+    <div style="background:#fff; border-radius:10px; box-shadow:0 8px 24px rgba(0,0,0,.08); padding:32px;">
+      <h2>Career Milestones</h2>
+
+      <ul style="list-style:none; padding:0; line-height:1.8; text-align:left;">
+        <li style="margin:10px 0;">
+          <h4>1994 — First International Tour:</h4>
+          Europe (Austria & Switzerland). Also toured South Africa with Lucky Dube.
+        </li>
+
+        <li style="margin:10px 0;">
+          <h4>1998 — First International Collaboration:</h4>
+          Worked with Bonnie Raitt (USA) on “One Belief Away,” inspired by Tuku’s “What’s Going On?”
+        </li>
+
+        <li style="margin:10px 0;">
+          <h4>1992–2014 — Major Awards:</h4>
+          <h6> M-Net Best Soundtrack (Neria) </h6>
+          <h6>KORA Awards</h6>
+          <h6>Honorary Degree (University of Zimbabwe)</h6>
+          <h6>Global Service Award (USA)</h6>
+        </li>
+
+        <li style="margin:10px 0;">
+          <h4>2019 — National Hero Recognition:</h4>
+          Declared Zimbabwe’s first musician to receive National Hero status.
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Transition to Today -->
+  <div class="w3-container w3-center w3-padding-48">
+    <a href="today.html" class="w3-button btn-primary w3-round w3-large">
+      See how Tuku’s spirit lives on in modern Zimbabwean music
+    </a>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <!-- Zimbabwe flag accent -->
+    <div class="flag-bar"></div>
+
+    <div class="w3-container w3-black w3-padding-32">
+      <div class="w3-row-padding">
+        <div class="w3-col m7 s12">
+          <h5 class="w3-text-white">Zim Music Legacy</h5>
+          <p class="w3-small" style="opacity:0.85;">
+            A project by <strong>Harries Gora</strong> celebrating Zimbabwean music from the 1980s, 1990s, and today.
+          </p>
+        </div>
+
+        <div class="w3-col m5 s12 w3-right-align w3-margin-top">
+          <a href="icons.html" class="w3-button w3-round w3-small w3-white w3-border w3-margin-bottom">Icons</a>
+          <a href="evolution.html" class="w3-button w3-round w3-small w3-white w3-border w3-margin-bottom">Evolution</a>
+          <a href="today.html" class="w3-button w3-round w3-small w3-white w3-border w3-margin-bottom">Today</a>
+        </div>
+      </div>
+
+      <div class="w3-border-top w3-border-grey w3-padding-16 w3-small" style="margin-top:12px;opacity:.9;">
+        <span>&copy; 2025 Harries Gora. All rights reserved.</span>
+        <span class="w3-right">
+          <a href="#" class="w3-text-white" style="text-decoration:none;">
+            <i class="fa fa-arrow-up w3-margin-right"></i>Back to top
+          </a>
+        </span>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>

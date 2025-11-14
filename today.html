@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Zim Music Legacy · Today’s Artists</title>
+
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  
+  <style>
+    :root {
+      --zml-accent: #fdfcf5;
+      --zml-text: #1d1d1f;
+    }
+
+    .zml-display {
+      font-family: "Poppins", system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+      font-weight: 700;
+    }
+
+
+    /* NAV BAR */
+    .zml-nav {
+      background: var(--zml-accent) !important;
+      height: 72px;
+      line-height: 72px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, .08);
+    }
+
+    .zml-nav .w3-bar-item {
+      color: var(--zml-text) !important;
+      font-size: 18px;
+      padding: 0 20px !important;
+    }
+
+    .zml-nav .w3-bar-item.zml-brand {
+      font-size: 22px;
+      letter-spacing: .5px;
+    }
+
+    .zml-nav .w3-bar-item:hover {
+      background: rgba(0, 0, 0, .05) !important;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      font-family: "Oswald"
+    }
+
+    body {
+      font-family: "Open Sans";
+      padding-top: 78px
+    }
+
+
+    .flag-bar {
+      height: 6px;
+      background: linear-gradient(to right,
+          #006400 0% 14.285%,
+          #FFD200 14.285% 28.57%,
+          #D4213D 28.57% 42.855%,
+          #000000 42.855% 57.14%,
+          #D4213D 57.14% 71.425%,
+          #FFD200 71.425% 85.71%,
+          #006400 85.71% 100%);
+    }
+
+    /* page header */
+    .page-head {
+      padding: 32px 16px 12px;
+      text-align: center;
+    }
+
+    .page-sub {
+      opacity: 0.9;
+      margin-top: 6px;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    /* Card and text */
+    .card {
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+      padding: 24px;
+    }
+
+    .lead {
+      font-size: 18px;
+      line-height: 1.6;
+    }
+
+    .meta {
+      color: #666;
+      font-size: 13px;
+      text-align: center;
+    }
+
+    /* Images */
+    .circle-img {
+      width: 140px;
+      height: 140px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin: 0 auto;
+    }
+
+    .album-cover {
+      width: 100%;
+      border-radius: 10px;
+      object-fit: cover;
+      display: block;
+    }
+
+    /* Buttons */
+    .btn-primary {
+      background: #006400;
+      color: #fff;
+    }
+
+    .btn-primary:hover {
+      filter: brightness(0.9);
+    }
+  </style>
+</head>
+
+<body class="w3-light-grey">
+
+  <!-- Top nav -->
+  <div class="w3-top">
+    <div class="w3-bar zml-nav zml-display">
+      <a href="Home.html  " class="w3-bar-item w3-hide-small brand-badge zml-brand" aria-label="Zim Music Legacy">
+        <span>Zim Music Legacy</span>
+      </a>
+
+      <div class="w3-right w3-hide-small">
+        <a href="icons.html" class="w3-bar-item ">Icons</a>
+        <a href="evolution.html" class="w3-bar-item">Evolution</a>
+        <a href="tuku.html" class="w3-bar-item">Tuku’s Legacy</a>
+        <a href="today.html" class="w3-bar-item">Today</a>
+      </div>
+    </div>
+    <div class="flag-bar"></div>
+  </div>
+
+  <!-- Page header -->
+  <header class="w3-container w3-center page-head">
+    <h1 class="w3-xxxlarge">TODAY’S ARTISTS</h1>
+    <p class="w3-large page-sub">The Soundtrack of a Modern Zimbabwe</p>
+  </header>
+
+  <!-- Intro -->
+  <section class="w3-content" style="max-width:1100px;">
+    <div class="card">
+      <p class="lead">
+        Zimbabwean music continues its evolution from Chimurenga’s political roots and Tuku Music’s depth
+        to a dynamic digital era. Today’s giants blend local rhythms with global trends, keeping the nation’s
+        voice strong. Below are three artists who define the sound and soul of modern Zimbabwean music.
+      </p>
+    </div>
+  </section>
+
+  <!-- Artists Section -->
+  <section class="w3-content" style="max-width:1100px; margin-top:32px;">
+    <div class="w3-row-padding">
+
+      <!-- Artist: Jah Prayzah -->
+      <div class="w3-third w3-center">
+        <div class="card">
+          <img src="images/JahP.jpg" alt="Jah Prayzah" class="circle-img">
+          <h3>Jah Prayzah</h3>
+          <p class="meta">The Cultural Diplomat</p>
+          <p class="lead">
+            Jah Prayzah blends military-style drumming and rich Shona lyrics with Afrobeats and global pop,
+            making him a cultural ambassador who bridges Zimbabwean heritage and modern sound.
+          </p>
+          <img src="images/Jahalbum.jpg" alt="Jah Prayzah album" class="album-cover w3-margin-top">
+          <a href="https://youtu.be/4hzaGrEawqE" class="w3-button btn-primary w3-round w3-block w3-margin-top"
+            target="_blank">
+            Watch Dzamutsana on YouTube
+          </a>
+        </div>
+      </div>
+
+      <!-- Artist: Winky D -->
+      <div class="w3-third w3-center">
+        <div class="card">
+          <img src="images/Winky.jpg" alt="Winky D" class="circle-img">
+          <h3>Winky D</h3>
+          <p class="meta">The Gafa / Voice of the Streets</p>
+          <p class="lead">
+            Carries the torch of social commentary through ZimDancehall , tackling poverty, corruption,
+            and daily struggles with high-energy delivery.
+          </p>
+          <img src="images/Winkyalbum.jpeg" alt="Winky D album" class="album-cover w3-margin-top">
+          <a href="https://www.youtube.com/watch?v=rXWMqXWfwK0"
+            class="w3-button btn-primary w3-round w3-block w3-margin-top" target="_blank">
+            Watch MuGarden on YouTube
+          </a>
+        </div>
+      </div>
+
+      <!-- Artist: Killer T -->
+      <div class="w3-third w3-center">
+        <div class="card">
+          <img src="images/killert.jpg" alt="Killer T" class="circle-img">
+          <h3>Killer T</h3>
+          <p class="meta">Hot Property / Everyday Chronicler</p>
+          <p class="lead">
+            Raw, relatable storytelling about relationships, money, and perseverance , the soundtrack
+            of high-density suburbs.
+          </p>
+          <img src="images/KillerKana.jpg" alt="Killer T album" class="album-cover w3-margin-top">
+          <a href="https://youtu.be/9ZjfDoP3Vec" class="w3-button btn-primary w3-round w3-block w3-margin-top"
+            target="_blank">
+            Watch Kana Ndanyura on YouTube
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Conclusion -->
+  <section class="w3-content" style="max-width:1100px; margin-top:48px; margin-bottom:48px;">
+    <div class="card" style="text-align:left; box-shadow:0 4px 12px rgba(0,0,0,.08); border-radius:8px;">
+      <p class="lead" style="margin:0;">
+        From Mtukudzi’s iconic guitar to ZimDancehall’s digital pulse, the mission remains the same , to reflect,
+        critique, and inspire. Jah Prayzah, Winky D, and Killer T carry the legacy forward,
+        keeping Zimbabwean music powerful and relevant.
+      </p>
+    </div>
+  </section>
+
+  <!-- Zimbabwe flag accent -->
+  <div class="flag-bar"></div>
+
+  <div class="w3-container w3-black w3-padding-32">
+    <div class="w3-row-padding">
+      <div class="w3-col m7 s12">
+        <h5 class="w3-text-white">Zim Music Legacy</h5>
+        <p class="w3-small" style="opacity:0.85;">
+          A project by <strong>Harries Gora</strong> celebrating Zimbabwean music from the 1980s, 1990s, and today.
+        </p>
+      </div>
+
+      <div class="w3-col m5 s12 w3-right-align w3-margin-top">
+        <a href="icons.html" class="w3-button w3-round w3-small w3-white w3-border w3-margin-bottom">Icons</a>
+        <a href="evolution.html" class="w3-button w3-round w3-small w3-white w3-border w3-margin-bottom">Evolution</a>
+        <a href="tuku.html" class="w3-button w3-round w3-small w3-white w3-border w3-margin-bottom">Tuku's Legacy</a>
+      </div>
+    </div>
+
+    <div class="w3-border-top w3-border-grey w3-padding-16 w3-small" style="margin-top:12px;opacity:.9;">
+      <span>&copy; 2025 Harries Gora. All rights reserved.</span>
+      <span class="w3-right">
+        <a href="#" class="w3-text-white" style="text-decoration:none;">
+          <i class="fa fa-arrow-up w3-margin-right"></i>Back to top
+        </a>
+      </span>
+    </div>
+  </div>
+  </footer>
+</body>
+
+</html>

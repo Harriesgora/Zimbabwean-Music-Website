@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Zim Music Legacy · The Evolution</title>
+
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+  <style>
+    :root {
+      --zml-accent: #fdfcf5;
+      --zml-text: #1d1d1f;
+    }
+
+    .zml-display {
+      font-family: "Poppins", system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+      font-weight: 700;
+    }
+
+
+    /* NAV BAR */
+    .zml-nav {
+      background: var(--zml-accent) !important;
+      height: 72px;
+      line-height: 72px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, .08);
+    }
+
+    .zml-nav .w3-bar-item {
+      color: var(--zml-text) !important;
+      font-size: 18px;
+      padding: 0 20px !important;
+    }
+
+    .zml-nav .w3-bar-item.zml-brand {
+      font-size: 22px;
+      letter-spacing: .5px;
+    }
+
+    .zml-nav .w3-bar-item:hover {
+      background: rgba(0, 0, 0, .05) !important;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      font-family: "Oswald"
+    }
+
+    body {
+      font-family: "Open Sans";
+      padding-top: 78px
+    }
+
+
+    .flag-bar {
+      height: 6px;
+      background: linear-gradient(to right,
+          #006400 0% 14.285%,
+          #FFD200 14.285% 28.57%,
+          #D4213D 28.57% 42.855%,
+          #000000 42.855% 57.14%,
+          #D4213D 57.14% 71.425%,
+          #FFD200 71.425% 85.71%,
+          #006400 85.71% 100%);
+    }
+
+    /* Page header */
+    .page-head {
+      padding: 32px 16px 12px
+    }
+
+    .page-sub {
+      opacity: .9;
+      margin-top: 6px
+    }
+
+    /* Cards + images  */
+    .card {
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, .08);
+      padding: 24px
+    }
+
+    .lead {
+      font-size: 18px;
+      line-height: 1.6
+    }
+
+    /* Image wrappers */
+    .img-wrap {
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, .08)
+    }
+
+    .img-fill {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block
+    }
+
+    .ratio-3x4 {
+      aspect-ratio: 3/4
+    }
+
+    .ratio-4x3 {
+      aspect-ratio: 4/3
+    }
+
+    .ratio-16x9 {
+      aspect-ratio: 16/9
+    }
+
+    /* Buttons */
+    .btn-primary {
+      background: #006400;
+      color: #fff
+    }
+
+    .btn-primary:hover {
+      filter: brightness(.9)
+    }
+
+    .zml-nav {
+      padding: 0 12px
+    }
+
+    .brand-badge {
+      background: transparent;
+      color: var(--zml-text) !important;
+      border: none;
+      box-shadow: none;
+      padding: 0
+    }
+
+    .zml-brand span {
+      font-size: 24px
+    }
+  </style>
+</head>
+
+<body class="w3-light-grey">
+
+  <!-- Top nav -->
+  <div class="w3-top">
+    <div class="w3-bar zml-nav zml-display">
+      <a href="Home.html" class="w3-bar-item w3-hide-small brand-badge zml-brand" aria-label="Zim Music Legacy">
+        <span>Zim Music Legacy</span>
+      </a>
+
+      <div class="w3-right w3-hide-small">
+        <a href="icons.html" class="w3-bar-item">Icons</a>
+        <a href="evolution.html" class="w3-bar-item">Evolution</a>
+        <a href="tuku.html" class="w3-bar-item ">Tuku’s Legacy</a>
+        <a href="today.html" class="w3-bar-item ">Today</a>
+      </div>
+    </div>
+    <div class="flag-bar"></div>
+  </div>
+
+  <header class="w3-center page-head">
+    <h1 class="w3-xxxlarge">THE EVOLUTION</h1>
+    <p class="w3-large page-sub">Tracing the Enduring Rhythms of Zimbabwean Music</p>
+  </header>
+
+  <section class="w3-content w3-padding-16" style="max-width:1100px">
+    <h2>From Chimurenga to Tuku Music: The Voices of Liberation</h2>
+
+    <div class="w3-row-padding w3-margin-top">
+      <div class="w3-col l7 m12 card">
+        <p class="lead">
+          The foundation of modern Zimbabwean music was forged in the fires of liberation and cultural pride. Emerging
+          from the struggle for independence, Chimurenga music, pioneered by icons like Thomas Mapfumo, became the
+          heartbeat of a nation. Using traditional Shona melodies and instruments alongside electric guitars, Chimurenga
+          bravely
+          voiced political dissent and celebrated identity, acting as a powerful social and political force.
+        </p>
+      </div>
+      <div class="w3-col l5 m12">
+        <img src="images/Thomas.jpg" alt="Thomas Mapfumo — Chimurenga pioneer" class="img-fill img-wrap ratio-3x4">
+      </div>
+    </div>
+
+    <div class="w3-row-padding w3-margin-top">
+      <div class="w3-col l5 m12">
+        <img src="images/Mbira.jpg" alt="Mbira and katekwe rhythms shaping Zimbabwean sound"
+          class="img-fill img-wrap ratio-4x3">
+      </div>
+      <div class="w3-col l7 m12 card">
+        <p class="lead">
+          Following this legacy, the 1990s saw the rise of “Tuku Music,” a unique genre crafted by the legendary Oliver
+          Mtukudzi. Blending traditional Mbira and Katekwe rhythms with contemporary pop sensibilities, Tuku Music
+          modernized the Zimbabwean sound. His profound lyrics, often embedded in film soundtracks like the acclaimed
+          <em>Neria</em>,
+          carried social messages of hope and resilience, captivating audiences within Zimbabwe and across Africa and
+          beyond.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 2: The Genre Shift -->
+  <section class="w3-content w3-padding-16" style="max-width:1100px">
+    <h2>The Digital Divide: New Rhythms, New Tools</h2>
+
+    <div class="card w3-margin-top">
+      <p class="lead">
+        The turn of the millennium marked a significant pivot for Zimbabwean music. Affordable digital production tools
+        and accessible beat-making software empowered a new generation of artists to experiment, moving away from
+        traditional large bands and analogue instruments. This era democratized music creation, opening doors for
+        innovative sounds to emerge from bedroom studios.
+      </p>
+
+      <p class="lead">
+        This technological shift coincided with the birth and rapid ascent of ZimDancehall. Heavily influenced by
+        Jamaican dancehall but infused with local Shona slang and street narratives, this high-energy genre quickly
+        became the anthem of urban youth. Amidst growing economic pressures, ZimDancehall provided a raw, unfiltered platform for
+        artists to express social frustrations, chronicling themes of poverty, corruption, and the daily grind in a relatable,
+        vibrant rhythm.
+      </p>
+
+      <img src="images/dancehall.webp" alt="ZimDancehall crowd and sound system culture"
+        class="img-fill img-wrap ratio-16x9 w3-margin-top">
+    </div>
+  </section>
+  <!-- Section 3: Today’s Synthesis -->
+  <section class="w3-content w3-padding-16" style="max-width:1100px">
+    <h2>Today’s Trailblazers: Carrying the Torch Forward</h2>
+
+    <div class="w3-row-padding w3-margin-top">
+      <div class="w3-col l7 m12 card">
+        <p class="lead">
+          The journey of Zimbabwean music continues to evolve, constantly adapting while honoring its rich heritage.
+          Today’s artists stand on the shoulders of giants, skillfully synthesizing traditional influences with global
+          trends to create a vibrant, contemporary sound.
+        </p>
+
+        <p class="lead">
+          From the genre-bending Afropop of Jah Prayzah, who seamlessly blends traditional military drumming with modern
+          beats,to the lyrical prowess of Winky D, who continues the legacy of poignant social commentary through
+          high-energy ZimDancehall, and the relatable street anthems of Killer T, these artists represent the dynamic present of
+          Zimbabwean music. They leverage digital platforms to reach global audiences, ensuring the powerful voice of
+          Zimbabwe resonates further than ever before.
+        </p>
+      </div>
+
+      <div class="w3-col l5 m12">
+        <img src="images/Jah.jpg" alt="Jah Prayzah on stage — modern Zimbabwean Afropop"
+          class="img-fill img-wrap ratio-4x3">
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <div class="w3-container w3-center w3-padding-48">
+    <a href="today.html" class="w3-button btn-primary w3-round w3-large">
+      Explore Today’s Artists
+    </a>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <!-- Zimbabwe flag accent -->
+    <div class="flag-bar"></div>
+
+    <div class="w3-container w3-black w3-padding-32">
+      <div class="w3-row-padding">
+        <div class="w3-col m7 s12">
+          <h5 class="w3-text-white">Zim Music Legacy</h5>
+          <p class="w3-small" style="opacity:0.85;">
+            A project by <strong>Harries Gora</strong> celebrating Zimbabwean music from the 1980s, 1990s, and today.
+          </p>
+        </div>
+
+        <div class="w3-col m5 s12 w3-right-align w3-margin-top">
+          <a href="icons.html" class="w3-button w3-round w3-small w3-white w3-border w3-margin-bottom">Icons</a>
+          <a href="tuku.html" class="w3-button w3-round w3-small w3-white w3-border w3-margin-bottom">Tuku’s Legacy</a>
+          <a href="today.html" class="w3-button w3-round w3-small w3-white w3-border w3-margin-bottom">Today</a>
+        </div>
+      </div>
+
+      <div class="w3-border-top w3-border-grey w3-padding-16 w3-small" style="margin-top:12px;opacity:.9;">
+        <span>&copy; 2025 Harries Gora. All rights reserved.</span>
+        <span class="w3-right">
+          <a href="#" class="w3-text-white" style="text-decoration:none;">
+            <i class="fa fa-arrow-up w3-margin-right"></i>Back to top
+          </a>
+        </span>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
